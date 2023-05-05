@@ -14,8 +14,8 @@ project "WalnutApp"
 
       "../Walnut/src",
 
-      "%{IncludeDir.VulkanSDK}",
-      "%{IncludeDir.glm}",
+      "../vendor/vulkan/macOS/include",
+      "../vendor/glm",
    }
 
     links
